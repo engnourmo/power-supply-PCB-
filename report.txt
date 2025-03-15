@@ -1,0 +1,12 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.099999 mm] for the current design rules.
+Plotted to 'D:\assignments\power supply\power_supply-F_Cu.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-B_Cu.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-F_Paste.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-B_Paste.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-F_Silkscreen.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-B_Silkscreen.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-F_Mask.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-B_Mask.gbr'.
+Plotted to 'D:\assignments\power supply\power_supply-Edge_Cuts.gbr'.
+Created Gerber job file 'D:\assignments\power supply\power_supply-job.gbrjob'.
+Info: Done.
