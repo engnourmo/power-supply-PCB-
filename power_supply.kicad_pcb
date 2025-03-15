@@ -100,7 +100,7 @@
 			(plotframeref no)
 			(viasonmask no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
 			(hpglpendiameter 15.000000)
@@ -119,7 +119,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -146,7 +146,7 @@
 		(descr "TSSOP, 4 Pin (https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF#page=4), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "D1"
-			(at 4.7244 -0.9652 360)
+			(at 4.7244 -0.9652 0)
 			(layer "F.SilkS")
 			(uuid "71fe355d-9043-47f1-ae7c-252253dc0f77")
 			(effects
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Value" "MDB10S"
-			(at 0 3.45 360)
+			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "b21b78e4-3e64-4666-b098-cac09424a69d")
 			(effects
@@ -168,7 +168,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2092fea1-68de-4e6d-9859-9d72f81fb570")
@@ -180,7 +180,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a7676a98-cd06-4f12-b163-b94b291cccd1")
@@ -192,7 +192,7 @@
 			)
 		)
 		(property "Description" "Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "358396e0-9743-4dfe-9dcf-6865a4d7edb3")
@@ -351,7 +351,7 @@
 			(uuid "cba42120-2d59-4a0a-8d4e-a900c5cc1f37")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "46bb9497-af05-492c-b8da-73f730f01066")
 			(effects
@@ -418,7 +418,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 0.75 -3.25 360)
+			(at 0.75 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "4cfd2b18-ef0c-4844-9b07-08643e9bc26e")
 			(effects
@@ -429,7 +429,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 0.75 3.25 360)
+			(at 0.75 3.25 0)
 			(layer "F.Fab")
 			(uuid "a7f78b01-0e85-4509-bfa4-e144273e50bf")
 			(effects
@@ -1487,7 +1487,7 @@
 			(uuid "ec0e0bf8-82c9-4c5e-b39c-efc51f4f5f67")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.Fab")
 			(uuid "f1524e40-48c4-4220-91a9-86ec9b5af699")
 			(effects
@@ -2047,7 +2047,7 @@
 			(uuid "d6e21aec-6635-428d-9206-ea645999f926")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1 360)
+			(at 0 1 0)
 			(layer "F.Fab")
 			(uuid "f20e95a7-845b-4026-892d-eb2499ea4d67")
 			(effects
@@ -2317,7 +2317,7 @@
 			(uuid "aad02580-dfd6-4af7-932d-f22128466451")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.2 0 360)
+			(at 0.2 0 0)
 			(layer "F.Fab")
 			(uuid "0fdb49b8-169f-4ab8-9abf-46977314cb30")
 			(effects
@@ -2390,7 +2390,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 0.75 -3.25 360)
+			(at 0.75 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "8a9f9038-7bab-4b71-9d3d-259f04f3ba8e")
 			(effects
@@ -2401,7 +2401,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 0.75 3.25 360)
+			(at 0.75 3.25 0)
 			(layer "F.Fab")
 			(uuid "0cf64a2a-844c-4abe-88fe-11297e1a2ce3")
 			(effects
@@ -3459,7 +3459,7 @@
 			(uuid "1db07853-1eff-4190-a6c6-ac6a6544c947")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.Fab")
 			(uuid "4b8e2df9-948b-416e-8c98-5555e6e678aa")
 			(effects
@@ -4806,7 +4806,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -4817,7 +4817,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -4828,7 +4828,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -4839,7 +4839,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -4894,7 +4894,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -4905,7 +4905,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -4916,7 +4916,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -4927,7 +4927,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -5346,7 +5346,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -5357,7 +5357,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -5368,7 +5368,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -5379,7 +5379,7 @@
 		)
 		(fp_arc
 			(start -6.35 7.62)
-			(mid -8.241301 6.915505)
+			(mid -8.241302 6.915505)
 			(end -9.0805 5.08)
 			(stroke
 				(width 0.127)
@@ -5434,7 +5434,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -5445,7 +5445,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -5456,7 +5456,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -5467,7 +5467,7 @@
 		)
 		(fp_arc
 			(start -9.0805 -5.08)
-			(mid -8.241301 -6.915505)
+			(mid -8.241301 -6.915504)
 			(end -6.35 -7.62)
 			(stroke
 				(width 0.127)
@@ -6103,7 +6103,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 3.81 -2.37 360)
+			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "a66c5967-3c08-4650-b23c-681585bcb2c2")
 			(effects
@@ -6114,7 +6114,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 3.81 2.37 360)
+			(at 3.81 2.37 0)
 			(layer "F.Fab")
 			(uuid "9a018e35-3610-4d48-8d84-c7b6bc19d10e")
 			(effects
@@ -6329,7 +6329,7 @@
 			(uuid "1006c297-4896-4834-acba-602015c84cc4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "ca72c7cd-0ad5-4bee-a4bb-c334764dc40d")
 			(effects
@@ -6701,7 +6701,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 3.81 -2.37 360)
+			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "ea57fd19-a87c-46b2-af37-5df69aa773cb")
 			(effects
@@ -6712,7 +6712,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 3.81 2.37 360)
+			(at 3.81 2.37 0)
 			(layer "F.Fab")
 			(uuid "dea67a17-1d46-4045-bae1-fb8fafe0e5e9")
 			(effects
@@ -6927,7 +6927,7 @@
 			(uuid "07878cbe-718a-44b5-9131-9409314432ac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "d00aa5a9-1e94-4bbb-a608-ffe5aca03551")
 			(effects
@@ -6976,7 +6976,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J1"
-			(at 2.54 -6.26 360)
+			(at 2.54 -6.26 0)
 			(layer "F.SilkS")
 			(uuid "6fe96e6b-f185-4426-aeb3-f5bf3d709b2a")
 			(effects
@@ -7420,7 +7420,7 @@
 			(uuid "40606e27-a72f-4ae7-9c22-d36a2f4e4caa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 3.2 360)
+			(at 2.54 3.2 0)
 			(layer "F.Fab")
 			(uuid "3a10d5b4-4642-40ff-ad7b-397bf5dde4b8")
 			(effects
@@ -8404,7 +8404,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 0.75 -3.25 360)
+			(at 0.75 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "8eb1bd3b-74b9-4081-bda6-69df73d7e615")
 			(effects
@@ -8415,7 +8415,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 0.75 3.25 360)
+			(at 0.75 3.25 0)
 			(layer "F.Fab")
 			(uuid "f681c6aa-a86a-4130-9771-866b7c4fc44f")
 			(effects
@@ -9473,7 +9473,7 @@
 			(uuid "00432189-03f2-420f-a474-c432b537a694")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.Fab")
 			(uuid "06ef1245-f908-41c6-92a0-0b91545e8df0")
 			(effects
@@ -9520,7 +9520,7 @@
 		(uuid "e8b29973-d466-4e14-a4bd-d50797ae33ec")
 		(at 153.6192 64.77 180)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f4971cd3-fb78-4ab1-ab60-9282b67d4a43")
@@ -9532,7 +9532,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "31b6523d-ab45-4a56-b5f7-4f011c12babc")
@@ -9544,7 +9544,7 @@
 			)
 		)
 		(property "Footprint" "logos:eagle"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a83d590c-174c-4c9e-bda7-b8264a066aa1")
@@ -9556,7 +9556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e916c832-bca2-4544-aebc-4fb9a76e0511")
@@ -9568,7 +9568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9344e3bd-9b6a-4dd2-8cc2-da6e2a412511")
@@ -11624,6 +11624,22 @@
 		(uuid "61c60f5d-5c68-40eb-8f96-44c9e57f4289")
 	)
 	(segment
+		(start 150.86905 97.6884)
+		(end 159.4918 97.6884)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "6200b444-c597-4329-92b0-63c3f323b568")
+	)
+	(segment
+		(start 159.4918 97.6884)
+		(end 160.1522 98.3488)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "75124382-66ff-43ec-b61e-a297d883b15c")
+	)
+	(segment
 		(start 162.7638 88.207)
 		(end 162.9664 88.0044)
 		(width 0.2)
@@ -11680,20 +11696,20 @@
 		(uuid "b0fbf388-63b5-48cb-8e7f-d39485bbef14")
 	)
 	(segment
-		(start 150.20865 98.3488)
-		(end 160.1522 98.3488)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "bc466c07-7762-447f-86aa-65ba03d131e4")
-	)
-	(segment
 		(start 173.619 78.2828)
 		(end 172.8698 77.5336)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "be470652-3819-4208-9b8d-45e026179837")
+	)
+	(segment
+		(start 150.20865 98.3488)
+		(end 150.86905 97.6884)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "c281645d-1134-4a7c-8612-52597d80db06")
 	)
 	(segment
 		(start 161.783272 79.4368)
