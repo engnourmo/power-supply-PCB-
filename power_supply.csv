@@ -1,0 +1,12 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"TSSOP-4_4.4x5mm_P4mm";1;"MDB10S";;;
+2;"C2,C1,C3";"CP_Radial_D4.0mm_P1.50mm";3;"C_Polarized";;;
+3;"R2,R1,R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";3;"R";;;
+4;"J2";"PinHeader_1x03_P1.00mm_Vertical";1;"Conn_01x03_Pin";;;
+5;"U2";"SOT-89-3";1;"LM317L_SOT-89";;;
+6;"J3";"BarrelJack_Horizontal";1;"Jack-DC";;;
+7;"U1";"TO-220-3_Vertical";1;"LM7805_TO220";;;
+8;"T1";"XFMR_TY-311P";1;"TY-311P";;;
+9;"D2";"LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm";1;"LED";;;
+10;"SW1";"SW_CK_JS202011CQN_DPDT_Straight";1;"SW_Push_DPDT";;;
+11;"J1";"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal";1;"Screw_Terminal_01x02";;;
